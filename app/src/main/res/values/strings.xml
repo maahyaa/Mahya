@@ -6,4 +6,14 @@
     <string name="design_by_mahy">design by mahy</string>
     <string name="comood">comood</string>
     <string name="gender">gender</string>
+    <string name="location">LOCATION</string>
+    <string name="on_the_way">on the way</string>
+    <string name="excursion">excursion</string>
+    <string name="telemeter">telemeter</string>
+    <string name="car">car</string>
+    <string name="airplain">airplain</string>
+    <string name="aplain">Aplain</string>
+    <string name="plain">plain</string>
+    <string name="bus">bus</string>
+    <string name="vespa">vespa</string>
 </resources>
