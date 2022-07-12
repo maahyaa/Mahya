@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DashboardActivity"
-    android:background="#560C0606">
+    android:background="#70BBBBBB">
 
     <View
         android:id="@+id/view"
@@ -86,11 +86,12 @@
                 android:id="@+id/way"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="6dp"
-                android:layout_marginTop="16dp"
                 android:text="@string/on_the_way"
-                android:textSize="20sp"
+                android:textSize="26sp"
                 android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                app:layout_constraintVertical_bias="0.25"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -98,13 +99,11 @@
                 android:id="@+id/excursion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="6dp"
-                android:layout_marginTop="16dp"
                 android:text="@string/excursion"
                 android:textColor="@color/ggg"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/way"
                 app:layout_constraintTop_toBottomOf="@+id/way" />
 
             <androidx.appcompat.widget.AppCompatImageButton
@@ -115,21 +114,18 @@
                 android:padding="20dp"
                 android:src="@drawable/ic_location"
                 app:layout_constraintBottom_toTopOf="@+id/telemeter"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.509" />
+                app:layout_constraintEnd_toEndOf="@+id/telemeter"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/telemeter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
                 android:text="@string/telemeter"
                 android:textColor="@color/black"
+                android:layout_margin="16dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/excursion"
-                app:layout_constraintVertical_bias="1.0"/>
+                app:layout_constraintEnd_toEndOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

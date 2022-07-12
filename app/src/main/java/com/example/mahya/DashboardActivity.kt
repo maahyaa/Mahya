@@ -11,11 +11,11 @@ class DashboardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
-       val backbutton:AppCompatImageButton= findViewById(R.id.back)
+       val backButton:AppCompatImageButton= findViewById(R.id.back)
         val logOutButton: AppCompatImageButton = findViewById(R.id.city)
         val location :AppCompatImageButton=findViewById(R.id.location)
         val card:MaterialCardView=findViewById(R.id.card_view_vespa)
-        backbutton.setOnClickListener {
+        backButton.setOnClickListener {
        Toast.makeText(this,"enjoy traveling",Toast.LENGTH_SHORT).show()
 
         }

@@ -14,17 +14,18 @@
         android:theme="@style/Theme.Mahya"
         tools:targetApi="32">
         <activity
-            android:name=".IntentExampleActivity"
-            android:exported="false" />
-        <activity
             android:name=".DashboardActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action/MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".IntentExampleActivity"
+            android:exported="false" />
+
         <activity android:name=".MainActivity" />
     </application>
 
