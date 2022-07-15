@@ -12,4 +12,8 @@
     <color name="blue_new">#9000ccff</color>
     <color name="gray_white">#560C0606</color>
     <color name="ggg">#FFFFC107</color>
+    <color name="gialo">#FFFC80</color>
+    <color name="gray">#800C0606</color>
+
+
 </resources>

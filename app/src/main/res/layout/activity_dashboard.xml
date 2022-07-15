@@ -89,7 +89,7 @@
                 android:text="@string/on_the_way"
                 android:textSize="26sp"
                 android:textStyle="bold"
-                android:layout_marginStart="16dp"
+                android:layout_marginStart="30dp"
                 app:layout_constraintVertical_bias="0.25"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -110,11 +110,11 @@
                 android:id="@+id/location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="?attr/selectableItemBackground"
+                android:background="@drawable/ic_location"
                 android:padding="20dp"
-                android:src="@drawable/ic_location"
                 app:layout_constraintBottom_toTopOf="@+id/telemeter"
                 app:layout_constraintEnd_toEndOf="@+id/telemeter"
+                app:layout_constraintStart_toStartOf="@+id/telemeter"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <com.google.android.material.button.MaterialButton
@@ -149,6 +149,18 @@
         app:layout_constraintTop_toBottomOf="@+id/guideline_card"
         app:layout_constraintVertical_bias="0.0">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bus"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/card_view_bus"
+            app:layout_constraintStart_toStartOf="@+id/card_view_bus"
+            app:layout_constraintTop_toBottomOf="@+id/card_view_bus"
+            app:layout_constraintVertical_bias="0.2" />
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card_view_bus"
             android:layout_width="150dp"
@@ -172,14 +184,21 @@
                 android:background="@drawable/ic_bus"
                 android:padding="16dp" />
 
-            <TextView
-                android:layout_width="62dp"
-                android:layout_height="68dp"
-                android:layout_marginStart="12dp"
-                android:text="@string/bus"
-                android:textSize="22sp"
-                android:textStyle="bold" />
+
         </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plain"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/card_view_vespa"
+            app:layout_constraintEnd_toEndOf="@+id/card_view_plain"
+            app:layout_constraintStart_toStartOf="@+id/card_view_plain"
+            app:layout_constraintTop_toBottomOf="@+id/card_view_plain"
+            app:layout_constraintVertical_bias="0.2" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card_view_plain"
@@ -204,15 +223,21 @@
                 android:background="@drawable/ic_plain"
                 android:padding="16dp" />
 
-            <TextView
-                android:layout_width="62dp"
-                android:layout_height="68dp"
-                android:layout_marginStart="12dp"
-                android:text="@string/plain"
-                android:textSize="22sp"
-                android:textStyle="bold" />
+
 
         </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/car"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/card_view_bus"
+            app:layout_constraintEnd_toEndOf="@+id/card_view_car"
+            app:layout_constraintStart_toStartOf="@+id/card_view_car"
+            app:layout_constraintTop_toBottomOf="@+id/card_view_car"
+            app:layout_constraintVertical_bias="0.2" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card_view_car"
@@ -230,24 +255,28 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.1">
+            app:layout_constraintVertical_bias="0.118">
 
             <androidx.appcompat.widget.AppCompatImageButton
                 android:layout_width="107dp"
                 android:layout_height="112dp"
                 android:layout_gravity="center"
-                android:background="@drawable/ic_car"
-                android:padding="16dp" />
+                android:background="@drawable/ic_car" />
 
-            <TextView
-                android:layout_width="62dp"
-                android:layout_height="68dp"
-                android:layout_marginStart="12dp"
-                android:text="@string/car"
-                android:textSize="22sp"
-                android:textStyle="bold" />
 
         </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vespa"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/card_view_vespa"
+            app:layout_constraintStart_toStartOf="@+id/card_view_vespa"
+            app:layout_constraintTop_toBottomOf="@+id/card_view_vespa"
+            app:layout_constraintVertical_bias="0.2" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card_view_vespa"
@@ -273,13 +302,7 @@
                 android:background="@drawable/ic_vespa"
                 android:padding="16dp" />
 
-            <TextView
-                android:layout_width="62dp"
-                android:layout_height="68dp"
-                android:layout_marginStart="12dp"
-                android:text="@string/vespa"
-                android:textSize="22sp"
-                android:textStyle="bold" />
+
 
         </com.google.android.material.card.MaterialCardView>
 

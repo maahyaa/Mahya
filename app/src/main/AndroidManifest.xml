@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Mahya"
         tools:targetApi="32">
         <activity
+            android:name=".ChipsActivity"
+            android:exported="false" />
+        <activity
             android:name=".DashboardActivity"
             android:exported="true">
             <intent-filter>
@@ -25,8 +28,8 @@
         <activity
             android:name=".IntentExampleActivity"
             android:exported="false" />
-
         <activity android:name=".MainActivity" />
+        <activity android:name=".SepehrActivity" />
     </application>
 
 </manifest>

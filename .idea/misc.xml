@@ -16,13 +16,18 @@
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/drawable/ic_clock.xml" value="0.103" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/drawable/ic_launcher_background.xml" value="0.103" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/drawable/ic_person.xml" value="0.112" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/drawable/ic_vespa.xml" value="0.104" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/drawable/mahya.xml" value="0.2115" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/drawable/sepehr_cardview_background.xml" value="0.14" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/drawable/vvv.xml" value="0.103" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/layout/activity_dashboard.xml" value="0.21" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/layout/activity_chips.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/layout/activity_dashbord.xml" value="0.2" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/layout/activity_doshbord.xml" value="0.22" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/layout/activity_intent_example.xml" value="0.17239583333333333" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/layout/activity_sepehr.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Mahya/app/src/main/res/menu/top_app_bar.xml" value="0.22" />
       </map>
     </option>
   </component>
